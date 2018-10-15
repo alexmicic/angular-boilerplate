@@ -1,0 +1,11 @@
+<section id="banner">
+  <h2>Login page</h2>
+  <p>Just a simple login form.</p>
+  <div id="cta" style="background: none !important;">
+    <form (ngSubmit)="onSubmit()" #loginForm="ngForm">
+      <input type="email" placeholder="Enter your email address" required><br>
+      <input type="password" placeholder="Enter your password" required><br>
+      <button class="button" [disabled]="!loginForm.form.valid">Sign in</button>
+    </form>
+  </div>
+</section>
