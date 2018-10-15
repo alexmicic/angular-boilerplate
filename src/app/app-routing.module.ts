@@ -5,8 +5,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { AuthGuardService } from './core/auth-guard/auth-guard.service';
 
 // App pages
-import { HomepageComponent } from './page/homepage/homepage.component';
-import { LoginComponent } from './page/login/login.component';
+import { HomepageComponent } from './pages/homepage/homepage.component';
+import { LoginComponent } from './pages/login/login.component';
 
 const routes: Routes = [
   { 

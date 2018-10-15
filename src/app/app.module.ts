@@ -8,8 +8,8 @@ import { CoreModule } from './core/core.module';
 import { SharedModule } from './shared/shared.module';
 
 // App page modules
-import { HomepageModule } from './page/homepage/homepage.module';
-import { LoginModule } from './page/login/login.module';
+import { HomepageModule } from './pages/homepage/homepage.module';
+import { LoginModule } from './pages/login/login.module';
 
 // App authorize service
 // I am wired to the app in the INIT phase, if you don't need me, please delete me !!!
